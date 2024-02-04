@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>253</width>
+    <height>294</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Select function</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 156), stop:0.00 rgba(240, 150, 80, 210), stop:0.9999 rgba(0, 0, 0, 240), stop:1 rgba(0, 0, 0, 0));
+</string>
+  </property>
+  <widget class="QPushButton" name="node_button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>20</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+font-size: 24px;
+background-color: rgba(255,255,255,80);
+border: 1px solid rgba(255,255,255,40);
+font-weight: bold;
+color: #DCDCDC;
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,60);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Node list</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="miners_button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>80</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+font-size: 24px;
+background-color: rgba(255,255,255,80);
+border: 1px solid rgba(255,255,255,40);
+font-weight: bold;
+color: #DCDCDC;
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,60);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Miners</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="trans_button">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>140</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+border-radius: 10px;
+font-size: 24px;
+background-color: rgba(255,255,255,80);
+border: 1px solid rgba(255,255,255,40);
+font-weight: bold;
+color: #DCDCDC;
+}
+QPushButton:hover{
+background-color: rgba(255,255,255,60);
+}
+</string>
+   </property>
+   <property name="text">
+    <string>Transactions</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>210</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 10px;
+font-size: 24px;
+background-color: rgba(255,255,255,80);
+border: 1px solid rgba(255,255,255,40);
+font-weight: bold;
+color: #DCDCDC;</string>
+   </property>
+   <property name="text">
+    <string>Blocks:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="blocks">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>210</y>
+     <width>71</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 15px;
+font-size: 24px;
+background-color: rgba(255,255,255,70);
+border: 1px solid rgba(255,255,255,40);
+color:black;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
